@@ -1,0 +1,283 @@
+
+h1, h2 , h3 {
+    
+    font-family: 'Stick No Bills', sans-serif;
+
+}
+
+
+p {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 2em;
+    text-align: justify;
+    width: 70%;
+}
+
+
+#container {
+
+    display:flex; 
+    flex-direction: column;
+    
+   
+   
+}
+   
+.picture_claire, .picture_célia, .picture_anthony, .picture_aurélien, .picture_jonathan{
+    
+    width: 40%;
+    border-radius: 5em;
+ 
+}
+
+
+   
+.bloc1 {
+
+    display: flex;
+    justify-content: center;
+    
+   
+
+}
+
+.bloc2 {
+
+    display: flex;
+    flex-direction: raw;
+ 
+   
+}
+
+
+.bloc3 {
+
+    display:flex;
+    flex-direction: raw;
+ 
+  
+}
+
+h3 {
+   
+    font-size: 3em;
+}
+
+.directrice, .dompteuse, .véto, .photographe, .cupilion, {
+    width: 40%;
+}
+
+
+
+
+
+  
+
+/*  code pour faire effet hover sur les 5 photos *
+
+
+ /*  effet sur Claire *
+   
+
+
+
+
+.effect1 {
+    
+    left : 20%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    background: red;
+    overflow: hidden;
+
+}
+
+.effect1, .picture_claire {
+    max-width: 100%;
+    height: auto;
+    position:absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+
+.picture_claire {
+    top: 0;
+    left: 0;
+    
+
+}
+
+.effect1:hover .picture_claire {
+    top: 0;
+    left: -100%;
+}
+.effect1 .picture_claire {
+    width: 100%;
+}
+
+
+
+
+.effect1 #directrice {
+    background:red;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+
+.effect1:hover #directrice {
+    top: 0;
+    left: 0%;
+}
+.effect1 #directrice h3 {
+    color:white;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.effect1 #directrice p {
+   
+    background-color: red;
+    color:white;
+  
+    text-align: center;
+   
+}
+
+
+
+ /*  effet sur Célia  *
+
+ .effect2 {
+  
+    top : 800px;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    
+    overflow: hidden;
+}
+
+.effect2, .picture_célia {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+
+.picture_célia {
+    top: 0;
+    left: 0;
+
+}
+
+.effect2:hover .picture_célia {
+    top: 0;
+    left: -100%;
+}
+.effect2 .picture_célia {
+    width: 100%;
+}
+
+
+
+
+.effect2 #dompteuse{
+    background:red;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+
+.effect2:hover #dompteuse {
+    top: 0;
+    left: 0%;
+}
+.effect2 #dompteuse h3 {
+    color:white;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2p 
+}
+.effect2 #dompteuse p {
+   
+    background-color: red;
+    color:white;
+  
+    text-align: center;
+   
+}
+
+  /*  effet sur Anthony 
+
+  .effect3 {
+    position: relative;
+    top: 100%;
+    right: 10%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    background: red;
+    overflow: hidden;
+}
+
+.effect3, .picture_anthony {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+
+.picture_anthony {
+    top: 0;
+    left: 0;
+
+}
+
+.effect3:hover .picture_anthony {
+    top: 0;
+    left: -100%;
+}
+.effect3 .picture_anthony {
+    width: 100%;
+}
+
+
+
+
+.effect3 #véto {
+    background:red;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+
+.effect3:hover #véto {
+    top: 0;
+    left: 0%;
+}
+.effect3 #véto h3 {
+    color:white;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.effect3 #véto p {
+   
+    background-color: red;
+    color:white;
+  
+    text-align: center;
+   
+}
+  /*  effet sur Aurélien */
+  /*  effet sur Jonathan */ 
